@@ -1,0 +1,122 @@
+.hero {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(to top right, #fff5f8, #e7ecff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.hero-content {
+  max-width: 700px;
+  z-index: 10;
+}
+
+.hero h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.hero .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background: #6c63ff;
+  color: #fff;
+  border-radius: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(108, 99, 255, 0.4);
+}
+
+/* Animation */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s forwards;
+}
+
+.fade-in-up.delay-1 {
+  animation-delay: 0.4s;
+}
+
+.fade-in-up.delay-2 {
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pulse {
+  animation: pulseBtn 2s infinite;
+}
+
+@keyframes pulseBtn {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+}
+
+/* Floating Icons */
+.floating-icons i {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #6c63ff33;
+  animation: float 8s ease-in-out infinite;
+  z-index: 1;
+}
+
+.icon1 { top: 15%; left: 12%; }
+.icon2 { top: 65%; left: 20%; }
+.icon3 { top: 10%; right: 15%; }
+.icon4 { bottom: 20%; right: 10%; }
+.icon5 { top: 30%; right: 35%; }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(5deg);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .floating-icons i {
+    display: none;
+  }
+}

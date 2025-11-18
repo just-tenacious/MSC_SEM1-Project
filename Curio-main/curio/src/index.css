@@ -1,0 +1,87 @@
+/* ==== RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  overflow-y: hidden;
+}
+
+
+/* ==== ROOT VARIABLES ==== */
+:root {
+  /* Brand Colors */
+  --primary: #6c63ff;
+  --secondary: #ff6584;
+
+  /* Neutral Colors */
+  --dark: #333;
+  --gray: #555;
+  --light: #fafafa;
+  --white: #ffffff;
+
+  /* State Colors */
+  --success: #4caf50;
+  --error: #f44336;
+  --warning: #ff9800;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ==== BASE TYPOGRAPHY ==== */
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--gray);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+/* ==== UTILITIES ==== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }

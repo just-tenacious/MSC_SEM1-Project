@@ -1,0 +1,437 @@
+[{
+  "_id": {
+    "$oid": "690cb6c3340a796830120581"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33b"
+  },
+  "faceLength": 21.5,
+  "foreheadWidth": 15.2,
+  "cheekboneWidth": 17,
+  "jawlineWidth": 14.5,
+  "created_at": {
+    "$date": "2025-11-06T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:00:00.000Z"
+  },
+  "face_shape": "Oval"
+},
+{
+  "_id": {
+    "$oid": "690cb6c3340a796830120582"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33b"
+  },
+  "faceLength": 22,
+  "foreheadWidth": 14.8,
+  "cheekboneWidth": 16.5,
+  "jawlineWidth": 15,
+  "created_at": {
+    "$date": "2025-11-06T08:05:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:05:00.000Z"
+  },
+  "face_shape": "Round"
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b3"
+  },
+  "user_id": {
+    "$oid": "68fb9e35823a78e05cd2048b"
+  },
+  "faceLength": 21.2,
+  "foreheadWidth": 15.1,
+  "cheekboneWidth": 16.8,
+  "jawlineWidth": 14.2,
+  "face_shape": "Oval",
+  "created_at": {
+    "$date": "2025-11-01T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-01T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b4"
+  },
+  "user_id": {
+    "$oid": "68fbad45823a78e05cd2048c"
+  },
+  "faceLength": 20.8,
+  "foreheadWidth": 14.5,
+  "cheekboneWidth": 16.5,
+  "jawlineWidth": 14,
+  "face_shape": "Heart",
+  "created_at": {
+    "$date": "2025-11-02T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-02T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b5"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b330"
+  },
+  "faceLength": 21,
+  "foreheadWidth": 14.8,
+  "cheekboneWidth": 16.7,
+  "jawlineWidth": 14.1,
+  "face_shape": "Oval",
+  "created_at": {
+    "$date": "2025-11-04T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-04T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b6"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b331"
+  },
+  "faceLength": 23.5,
+  "foreheadWidth": 16.2,
+  "cheekboneWidth": 18,
+  "jawlineWidth": 15.5,
+  "face_shape": "Square",
+  "created_at": {
+    "$date": "2025-11-01T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b7"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b332"
+  },
+  "faceLength": 21,
+  "foreheadWidth": 15,
+  "cheekboneWidth": 16.5,
+  "jawlineWidth": 14.2,
+  "face_shape": "Round",
+  "created_at": {
+    "$date": "2025-11-02T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-02T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b8"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b333"
+  },
+  "faceLength": 23.2,
+  "foreheadWidth": 16,
+  "cheekboneWidth": 18.1,
+  "jawlineWidth": 15.2,
+  "face_shape": "Square",
+  "created_at": {
+    "$date": "2025-11-03T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-03T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205b9"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b334"
+  },
+  "faceLength": 21.5,
+  "foreheadWidth": 15.2,
+  "cheekboneWidth": 16.8,
+  "jawlineWidth": 14.4,
+  "face_shape": "Oval",
+  "created_at": {
+    "$date": "2025-11-01T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205ba"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b335"
+  },
+  "faceLength": 24,
+  "foreheadWidth": 16.5,
+  "cheekboneWidth": 18.5,
+  "jawlineWidth": 15.8,
+  "face_shape": "Oblong",
+  "created_at": {
+    "$date": "2025-11-02T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-02T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205bb"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b336"
+  },
+  "faceLength": 21.1,
+  "foreheadWidth": 15,
+  "cheekboneWidth": 16.9,
+  "jawlineWidth": 14.3,
+  "face_shape": "Heart",
+  "created_at": {
+    "$date": "2025-11-03T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-03T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205bc"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b337"
+  },
+  "faceLength": 23,
+  "foreheadWidth": 16,
+  "cheekboneWidth": 17.8,
+  "jawlineWidth": 15,
+  "face_shape": "Square",
+  "created_at": {
+    "$date": "2025-11-01T11:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-01T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205bd"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b338"
+  },
+  "faceLength": 21.3,
+  "foreheadWidth": 15.1,
+  "cheekboneWidth": 17,
+  "jawlineWidth": 14.5,
+  "face_shape": "Oval",
+  "created_at": {
+    "$date": "2025-11-02T11:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-02T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205be"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b339"
+  },
+  "faceLength": 23.1,
+  "foreheadWidth": 16.1,
+  "cheekboneWidth": 17.9,
+  "jawlineWidth": 15.1,
+  "face_shape": "Square",
+  "created_at": {
+    "$date": "2025-11-03T11:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-03T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205bf"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33a"
+  },
+  "faceLength": 21,
+  "foreheadWidth": 15,
+  "cheekboneWidth": 16.7,
+  "jawlineWidth": 14.3,
+  "face_shape": "Heart",
+  "created_at": {
+    "$date": "2025-11-01T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-01T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205c0"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33b"
+  },
+  "faceLength": 23.6,
+  "foreheadWidth": 16.3,
+  "cheekboneWidth": 18,
+  "jawlineWidth": 15.5,
+  "face_shape": "Oblong",
+  "created_at": {
+    "$date": "2025-11-02T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-02T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205c1"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33c"
+  },
+  "faceLength": 21.2,
+  "foreheadWidth": 15,
+  "cheekboneWidth": 16.9,
+  "jawlineWidth": 14.4,
+  "face_shape": "Oval",
+  "created_at": {
+    "$date": "2025-11-03T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-03T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205c2"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33d"
+  },
+  "faceLength": 22,
+  "foreheadWidth": 15.5,
+  "cheekboneWidth": 17,
+  "jawlineWidth": 14.8,
+  "face_shape": "Oval",
+  "created_at": {
+    "$date": "2025-11-04T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-04T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205c3"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33e"
+  },
+  "faceLength": 21.1,
+  "foreheadWidth": 15,
+  "cheekboneWidth": 16.7,
+  "jawlineWidth": 14.2,
+  "face_shape": "Heart",
+  "created_at": {
+    "$date": "2025-11-05T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-05T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc49d340a7968301205c4"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33f"
+  },
+  "faceLength": 23,
+  "foreheadWidth": 16,
+  "cheekboneWidth": 17.9,
+  "jawlineWidth": 15,
+  "face_shape": "Square",
+  "created_at": {
+    "$date": "2025-11-06T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6914d9b4f7f120cc5f8c59e4"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33f"
+  },
+  "faceLength": 18,
+  "foreheadWidth": 16,
+  "cheekboneWidth": 17,
+  "jawlineWidth": 18,
+  "face_shape": "Triangle",
+  "created_at": {
+    "$date": "2025-11-12T19:02:12.299Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-12T19:02:12.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6914de1af7f120cc5f8c59e6"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b331"
+  },
+  "faceLength": 15,
+  "foreheadWidth": 16.5,
+  "cheekboneWidth": 14.8,
+  "jawlineWidth": 19.9,
+  "face_shape": "Triangle",
+  "created_at": {
+    "$date": "2025-11-12T19:20:58.768Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-12T19:20:58.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6914de7bf7f120cc5f8c59e7"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b336"
+  },
+  "faceLength": 22.4,
+  "foreheadWidth": 15.4,
+  "cheekboneWidth": 16.3,
+  "jawlineWidth": 19.1,
+  "face_shape": "Triangle",
+  "created_at": {
+    "$date": "2025-11-12T19:22:35.392Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-12T19:22:35.392Z"
+  }
+}]

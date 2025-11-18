@@ -1,0 +1,298 @@
+/* --- Analysis Section --- */
+#analysis {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Section Heading */
+#analysis h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(270deg, #ff6b81, #f7d794, #6fe7dd, #ff9f43);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+/* Section Paragraph */
+#analysis > p {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 3rem;
+}
+
+/* Cards Container */
+.analysis-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Individual Card */
+.analysis-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  padding: 2rem;
+  width: 300px;
+  text-align: center;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, background 0.35s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+/* Glow effect behind cards */
+.analysis-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.3), transparent 70%);
+  z-index: 0;
+  transform: scale(0.8);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.analysis-card:hover::before {
+  transform: scale(1);
+  opacity: 0.6;
+}
+
+/* Card Heading Gradient Animation */
+.analysis-card h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  background: linear-gradient(270deg, #6a11cb, #2575fc, #ff6b81, #f7d794);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: cardGradientAnimation 8s ease infinite;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.35s ease;
+}
+
+/* Card Paragraphs */
+.analysis-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #302b63;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover Effect */
+.analysis-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.25);
+  border: 2px solid #fff;
+  background: rgba(255,255,255,1);
+}
+
+.analysis-card:hover h4 {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.analysis-card .btn-small {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.analysis-card .btn-small:hover {
+  background-color: #5a52d1;
+  transform: scale(1.05);
+}
+
+/* Icon */
+.analysis-card .icon-wrapper {
+  font-size: 3rem;
+  color: #eeeef3;
+  margin-bottom: 1rem;
+  transition: transform 0.35s ease, color 0.35s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.analysis-card:hover .icon-wrapper {
+  transform: scale(1.2);
+  color: #e8e8f2;
+}
+
+/* Fade-in keyframes */
+@keyframes fadeInUp {
+  0% {opacity:0; transform:translateY(20px);}
+  100% {opacity:1; transform:translateY(0);}
+}
+
+/* Animated gradient for section heading */
+@keyframes gradientAnimation {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* Animated gradient for card headings */
+@keyframes cardGradientAnimation {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  .analysis-container {flex-direction: column; align-items: center;}
+  .analysis-card {width: 80%;}
+}
+
+/* --- Analysis Detail Section --- */
+.detail-section{
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.detail-section h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(270deg, #ff6b81, #f7d794, #6fe7dd, #ff9f43);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+.detail-section p{
+  font-size: 1rem;
+  color: #302b63;
+  margin-bottom: 2rem;
+}
+
+.detail-section ol{
+  text-align: left;
+  margin: 0 auto 2rem auto;
+  padding-left: 1.5rem;
+  color: #302b63;
+}
+
+.style-option{
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.style-option:hover{
+  transform: scale(1.05);
+  background-color: #5a52d1;
+}
+
+.btn-back{
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.btn-back:hover{
+  background-color: #5a52d1;
+  transform: scale(1.05);
+}
+
+/* --- Modal Styling --- */
+.modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+}
+
+.modal-img {
+  max-width: 47%;
+  max-height: 80%;
+  border-radius: 1rem;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.modal-overlay .modal-img {
+  transform: scale(1);
+}
+
+.modal-close {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Body reset */
+body{
+  font-family: 'Playfair Display', serif;
+  background: #f8f8f8;
+  margin:0;
+  padding:0;
+}

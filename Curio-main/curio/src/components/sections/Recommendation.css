@@ -1,0 +1,179 @@
+.recommendations {
+  background: #fff8fc;
+  padding: 60px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #6c63ff;
+  font-weight: 700;
+}
+
+.section-content p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #444;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recs-slider-wrap {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+  padding: 0 20px;
+}
+
+.mag-card {
+  background: #fff;
+  min-width: 280px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(158, 68, 232, 0.46);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+  color: #333;
+}
+
+.mag-card:nth-child(even) {
+  background: #f0eaff;
+}
+
+.mag-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.mag-cover {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.mag-card h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #6c63ff;
+}
+
+.mag-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.btn-explore {
+  margin-top: auto;
+  background: linear-gradient(135deg, #6c63ff, #d86fff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-explore:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #5a32a3, #c95fff);
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: #6c63ff;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.custom-arrow:hover {
+  background: #5a32a3;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.custom-prev {
+  left: 15px;
+}
+
+.custom-next {
+  right: 15px;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #6c63ff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d86fff;
+}
+
+.slick-center .mag-card {
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .mag-card {
+    min-width: 260px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mag-card {
+    min-width: 90%;
+    max-width: 90%;
+    padding: 1.8rem 1.2rem;
+  }
+
+  .section-content h2 {
+    font-size: 1.7rem;
+  }
+
+  .section-content p {
+    font-size: 0.95rem;
+  }
+}
+
+.mag-card {
+  /* existing styles */
+  min-width: 280px;
+  max-width: 350px;
+  height: 400px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "690cc9e3c606b520e042ecee"
+  },
+  "icon": "👗",
+  "title": "Outfit Ideas",
+  "desc": "Discover curated outfit inspirations for everyday wear and special events, combining style, comfort, and the latest trends to suit your personality.",
+  "createdAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc9e3c606b520e042ecef"
+  },
+  "icon": "👜",
+  "title": "Accessories",
+  "desc": "Explore a wide range of accessories including bags, belts, scarves, and jewelry that add the perfect finishing touches to any outfit.",
+  "createdAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc9e3c606b520e042ecf0"
+  },
+  "icon": "👠",
+  "title": "Footwear",
+  "desc": "Find footwear that balances comfort and style, from casual sneakers to elegant heels, ensuring every step looks great.",
+  "createdAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc9e3c606b520e042ecf1"
+  },
+  "icon": "💇‍♀️",
+  "title": "Hairstyles",
+  "desc": "Get tips on flattering haircuts, creative styling ideas, and seasonal hair trends to keep your look fresh and fashionable.",
+  "createdAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc9e3c606b520e042ecf2"
+  },
+  "icon": "🌸",
+  "title": "Seasonal Trends",
+  "desc": "Stay updated with the latest seasonal trends and learn how to incorporate them into your wardrobe elegantly and effortlessly.",
+  "createdAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-06T16:16:35.316Z"
+  }
+}]

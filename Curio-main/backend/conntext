@@ -1,0 +1,6 @@
+& "C:\Program Files\MongoDB\Server\8.2\bin\mongod.exe" --config "C:\mongod.cfg"
+
+in powershell admin mode
+
+
+ren "C:\MongoDB\data" "data_old"

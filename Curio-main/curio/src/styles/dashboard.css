@@ -1,0 +1,221 @@
+/* Dashboard Container */
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  color: #d1d5db;
+  margin: 0 auto;
+}
+
+/* Welcome Banner */
+.dashboard .welcome-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+  color: white;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.dashboard .welcome-banner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.15);
+}
+
+.dashboard .welcome-banner h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(185, 215, 233, 0.841);
+}
+
+.dashboard .welcome-banner p {
+  color: rgba(255,255,255,0.85);
+  margin-top: 0.25rem;
+}
+
+.dashboard .welcome-banner button {
+  background-color: white;
+  color: #6366f1;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dashboard .welcome-banner button:hover {
+  background-color: #f3f4f6;
+  transform: translateY(-2px);
+}
+
+/* Profile Cards Grid */
+.dashboard .profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Profile Card */
+.profile-card {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 800px;
+  background: linear-gradient(135deg, #ffffff, #f3f4f6);
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  -o-transform: translateY(-6px);
+}
+
+/* Avatar / Initials */
+.profile-img,
+.profile-initial-lg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Accent Animations */
+.profile-initial-lg span.accent-bounce {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #6366f1;
+  top: -4px;
+  left: -4px;
+  animation: bounce 2s infinite;
+}
+
+.profile-initial-lg span.accent-pulse {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ec4899;
+  bottom: -4px;
+  right: -4px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.6; }
+}
+
+/* Profile Info */
+.profile-info h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.profile-info p {
+  margin: 0.25rem 0 0;
+  color: #6b7280;
+}
+
+/* Profile Fields */
+.profile-fields {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.profile-fields label {
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+
+.profile-fields input,
+.profile-fields select {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-fields input:focus,
+.profile-fields select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+/* Profile Actions */
+.profile-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-edit,
+.btn-save,
+.btn-cancel {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-edit {
+  background-color: #6366f1;
+  color: white;
+}
+
+.btn-edit:hover { background-color: #4f46e5; }
+
+.btn-save {
+  background-color: #10b981;
+  color: white;
+}
+
+.btn-save:hover { background-color: #059669; }
+
+.btn-cancel {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-cancel:hover { background-color: #dc2626; }

@@ -1,0 +1,475 @@
+[{
+  "_id": {
+    "$oid": "68fb9e35823a78e05cd2048b"
+  },
+  "fullname": "Shraddha Tiwari",
+  "username": "shraddha",
+  "dob": "2005-05-15",
+  "gender": "female",
+  "email": "k.shraddha.134@gmail.com",
+  "password": "qwerty123",
+  "is_admin": 2,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-24T15:41:41.947Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-24T16:54:09.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fbad45823a78e05cd2048c"
+  },
+  "fullname": "Sanya Kapoor",
+  "username": "sanya",
+  "dob": "1999-10-22",
+  "gender": "female",
+  "email": "sanya@gmail.com",
+  "password": "qwerty123",
+  "is_admin": 0,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-24T16:45:57.276Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-24T16:45:57.276Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b330"
+  },
+  "fullname": "Sanya Kapoor",
+  "username": "sanya",
+  "dob": "1999-10-22",
+  "gender": "female",
+  "email": "sanya@gmail.com",
+  "password": "qwerty123",
+  "is_admin": 0,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-24T16:45:57.276Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-24T16:45:57.276Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b331"
+  },
+  "fullname": "Aarav Mehta",
+  "username": "aaravm",
+  "dob": "1998-05-12",
+  "gender": "male",
+  "email": "aarav.mehta@gmail.com",
+  "password": "password123",
+  "is_admin": 2,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:24:22.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b332"
+  },
+  "fullname": "Isha Sharma",
+  "username": "ishash",
+  "dob": "2000-07-03",
+  "gender": "female",
+  "email": "isha.sharma@gmail.com",
+  "password": "isha123",
+  "is_admin": 0,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b333"
+  },
+  "fullname": "Rohan Verma",
+  "username": "rohanv",
+  "dob": "1997-11-20",
+  "gender": "male",
+  "email": "rohan.verma@gmail.com",
+  "password": "rohan@123",
+  "is_admin": 0,
+  "acc_status": 2,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b334"
+  },
+  "fullname": "Ananya Gupta",
+  "username": "ananyag",
+  "dob": "2001-02-14",
+  "gender": "female",
+  "email": "ananya.gupta@gmail.com",
+  "password": "ananya321",
+  "is_admin": 1,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:24:24.372Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b335"
+  },
+  "fullname": "Vivaan Singh",
+  "username": "vivaans",
+  "dob": "1995-08-29",
+  "gender": "male",
+  "email": "vivaan.singh@gmail.com",
+  "password": "vivaan123",
+  "is_admin": 2,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b336"
+  },
+  "fullname": "Meera Joshi",
+  "username": "meeraj",
+  "dob": "1999-12-10",
+  "gender": "female",
+  "email": "meera.joshi@gmail.com",
+  "password": "meera123",
+  "is_admin": 0,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b337"
+  },
+  "fullname": "Aditya Nair",
+  "username": "adityan",
+  "dob": "2002-03-08",
+  "gender": "male",
+  "email": "aditya.nair@gmail.com",
+  "password": "aditya321",
+  "is_admin": 0,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b338"
+  },
+  "fullname": "Kavya Reddy",
+  "username": "kavyar",
+  "dob": "1996-06-19",
+  "gender": "female",
+  "email": "kavya.reddy@gmail.com",
+  "password": "kavya123",
+  "is_admin": 2,
+  "acc_status": 2,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:38:31.403Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b339"
+  },
+  "fullname": "Arjun Malhotra",
+  "username": "arjunm",
+  "dob": "1998-09-25",
+  "gender": "male",
+  "email": "arjun.malhotra@gmail.com",
+  "password": "arjun123",
+  "is_admin": 0,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33a"
+  },
+  "fullname": "Riya Khanna",
+  "username": "riyakh",
+  "dob": "2001-01-17",
+  "gender": "female",
+  "email": "riya.khanna@gmail.com",
+  "password": "riya321",
+  "is_admin": 0,
+  "acc_status": 2,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:37:29.236Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33b"
+  },
+  "fullname": "Kabir Chawla",
+  "username": "kabirc",
+  "dob": "1995-04-22",
+  "gender": "male",
+  "email": "kabir.chawla@gmail.com",
+  "password": "kabir123",
+  "is_admin": 1,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33c"
+  },
+  "fullname": "Diya Bhatt",
+  "username": "diyab",
+  "dob": "2000-08-05",
+  "gender": "female",
+  "email": "diya.bhatt@gmail.com",
+  "password": "diya123",
+  "is_admin": 0,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33d"
+  },
+  "fullname": "Shaurya Jain",
+  "username": "shauryaj",
+  "dob": null,
+  "gender": null,
+  "email": "shaurya.jain@gmail.com",
+  "password": "shaurya123",
+  "is_admin": 2,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:24:52.975Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33e"
+  },
+  "fullname": "Anika Das",
+  "username": "anikad",
+  "dob": "1999-03-14",
+  "gender": "female",
+  "email": "anika.das@gmail.com",
+  "password": "anika123",
+  "is_admin": 1,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33f"
+  },
+  "fullname": "Reyansh Kapoor",
+  "username": "reyanshk",
+  "dob": "2002-07-30",
+  "gender": "male",
+  "email": "reyansh.kapoor@gmail.com",
+  "password": "reyansh321",
+  "is_admin": 0,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:37:47.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b340"
+  },
+  "fullname": "Ira Choudhary",
+  "username": "irac",
+  "dob": "2001-12-01",
+  "gender": "female",
+  "email": "ira.choudhary@gmail.com",
+  "password": "ira123",
+  "is_admin": 2,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b341"
+  },
+  "fullname": "Devansh Bhatia",
+  "username": "devanshb",
+  "dob": "1996-05-16",
+  "gender": "male",
+  "email": "devansh.bhatia@gmail.com",
+  "password": "devansh123",
+  "is_admin": 1,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b342"
+  },
+  "fullname": "Tanya Singh",
+  "username": "tanyas",
+  "dob": "2000-11-09",
+  "gender": "female",
+  "email": "tanya.singh@gmail.com",
+  "password": "tanya123",
+  "is_admin": 0,
+  "acc_status": 2,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b343"
+  },
+  "fullname": "Ayaan Reddy",
+  "username": "ayaanr",
+  "dob": "1998-01-23",
+  "gender": "male",
+  "email": "ayaan.reddy@gmail.com",
+  "password": "ayaan123",
+  "is_admin": 0,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b344"
+  },
+  "fullname": "Mira Sharma",
+  "username": "mirash",
+  "dob": "1999-09-19",
+  "gender": "female",
+  "email": "mira.sharma@gmail.com",
+  "password": "mira123",
+  "is_admin": 1,
+  "acc_status": 0,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b345"
+  },
+  "fullname": "Krishna Mehta",
+  "username": "krishnam",
+  "dob": "1997-06-27",
+  "gender": "male",
+  "email": "krishna.mehta@gmail.com",
+  "password": "krishna123",
+  "is_admin": 2,
+  "acc_status": 2,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:38:24.144Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdc091c148bd9eb5e6b346"
+  },
+  "fullname": "Suhani Kapoor",
+  "username": "suhanik",
+  "dob": "2001-04-12",
+  "gender": "female",
+  "email": "suhani.kapoor@gmail.com",
+  "password": "suhani123",
+  "is_admin": 0,
+  "acc_status": 1,
+  "created_at": {
+    "$date": "2025-10-26T06:32:49.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-31T19:37:49.446Z"
+  }
+}]

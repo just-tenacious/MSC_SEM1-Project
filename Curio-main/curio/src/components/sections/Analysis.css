@@ -1,0 +1,224 @@
+/* AnalysisSection.css */
+#analysis {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  position: relative;
+  overflow: hidden;
+}
+
+#analysis h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(270deg, #ff6b81, #f7d794, #6fe7dd, #ff9f43);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+#analysis > p {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 3rem;
+}
+
+.analysis-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.analysis-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background: rgba(255,255,255,0.9);
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  padding: 2rem 1.5rem;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, background 0.35s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+/* Icon wrapper inside analysis card */
+.analysis-card .icon-wrapper {
+  font-size: 3rem;
+  background-color: #fff;
+  color: #fff;
+  margin-bottom: 1rem;
+  transition: transform 0.35s ease, color 0.35s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.analysis-card:hover .icon-wrapper {
+  transform: scale(1.2);
+  color: #dad9e3;
+}
+
+
+.analysis-card h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  background: linear-gradient(270deg, #6a11cb, #2575fc, #ff6b81, #f7d794);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: cardGradientAnimation 8s ease infinite;
+}
+
+.analysis-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #302b63;
+}
+
+.btn-small {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.btn-small:hover {
+  background-color: #5a52d1;
+  transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+  0% {opacity:0; transform:translateY(20px);}
+  100% {opacity:1; transform:translateY(0);}
+}
+
+@keyframes gradientAnimation {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+@keyframes cardGradientAnimation {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  .analysis-container {flex-direction: column; align-items: center;}
+  .analysis-card {width: 80%;}
+}
+
+/* AnalysisDetail.css */
+.detail-section {
+  max-width: 800px;
+  margin: 6rem auto 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.detail-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(270deg, #ff6b81, #f7d794, #6fe7dd, #ff9f43);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+.style-option {
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.style-option:hover {
+  transform: scale(1.05);
+  background-color: #5a52d1;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.btn-back:hover {
+  background-color: #5a52d1;
+  transform: scale(1.05);
+}
+
+/* Modal */
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+}
+
+.modal-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.modal-img {
+  max-width: 47%;
+  max-height: 80%;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.modal-close {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10000;
+}

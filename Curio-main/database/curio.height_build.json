@@ -1,0 +1,475 @@
+[{
+  "_id": {
+    "$oid": "690cc735340a7968301205c5"
+  },
+  "user_id": {
+    "$oid": "68fb9e35823a78e05cd2048b"
+  },
+  "gender": "female",
+  "footSize": 23,
+  "height": 160,
+  "weight": 52,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205c6"
+  },
+  "user_id": {
+    "$oid": "68fbad45823a78e05cd2048c"
+  },
+  "gender": "female",
+  "footSize": 24,
+  "height": 165,
+  "weight": 60,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T08:05:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205c7"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b331"
+  },
+  "gender": "male",
+  "footSize": 27,
+  "height": 175,
+  "weight": 70,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T08:10:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205c8"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b332"
+  },
+  "gender": "female",
+  "footSize": 25,
+  "height": 162,
+  "weight": 55,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T08:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205c9"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b333"
+  },
+  "gender": "male",
+  "footSize": 28,
+  "height": 178,
+  "weight": 78,
+  "frame": "Large",
+  "created_at": {
+    "$date": "2025-11-06T08:20:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205ca"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b334"
+  },
+  "gender": "female",
+  "footSize": 24,
+  "height": 159,
+  "weight": 50,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T08:25:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205cb"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b335"
+  },
+  "gender": "male",
+  "footSize": 29,
+  "height": 180,
+  "weight": 85,
+  "frame": "Large",
+  "created_at": {
+    "$date": "2025-11-06T08:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205cc"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b336"
+  },
+  "gender": "female",
+  "footSize": 23,
+  "height": 158,
+  "weight": 54,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T08:35:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205cd"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b337"
+  },
+  "gender": "male",
+  "footSize": 27,
+  "height": 170,
+  "weight": 68,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T08:40:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205ce"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b338"
+  },
+  "gender": "female",
+  "footSize": 24,
+  "height": 162,
+  "weight": 57,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T08:45:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205cf"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b339"
+  },
+  "gender": "male",
+  "footSize": 28,
+  "height": 176,
+  "weight": 72,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T08:50:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d0"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33a"
+  },
+  "gender": "female",
+  "footSize": 23,
+  "height": 160,
+  "weight": 55,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T08:55:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T08:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d1"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33b"
+  },
+  "gender": "male",
+  "footSize": 27,
+  "height": 172,
+  "weight": 70,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d2"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33c"
+  },
+  "gender": "female",
+  "footSize": 24,
+  "height": 161,
+  "weight": 54,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T09:05:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d3"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33d"
+  },
+  "gender": "male",
+  "footSize": 28,
+  "height": 178,
+  "weight": 80,
+  "frame": "Large",
+  "created_at": {
+    "$date": "2025-11-06T09:10:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d4"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33e"
+  },
+  "gender": "female",
+  "footSize": 23,
+  "height": 159,
+  "weight": 52,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T09:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d5"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b33f"
+  },
+  "gender": "male",
+  "footSize": 27,
+  "height": 175,
+  "weight": 70,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T09:20:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d6"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b340"
+  },
+  "gender": "female",
+  "footSize": 24,
+  "height": 162,
+  "weight": 55,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T09:25:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d7"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b341"
+  },
+  "gender": "male",
+  "footSize": 28,
+  "height": 177,
+  "weight": 75,
+  "frame": "Large",
+  "created_at": {
+    "$date": "2025-11-06T09:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d8"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b342"
+  },
+  "gender": "female",
+  "footSize": 23,
+  "height": 160,
+  "weight": 53,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T09:35:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205d9"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b343"
+  },
+  "gender": "male",
+  "footSize": 27,
+  "height": 173,
+  "weight": 68,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T09:40:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205da"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b344"
+  },
+  "gender": "female",
+  "footSize": 24,
+  "height": 161,
+  "weight": 56,
+  "frame": "Medium",
+  "created_at": {
+    "$date": "2025-11-06T09:45:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205db"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b345"
+  },
+  "gender": "male",
+  "footSize": 28,
+  "height": 179,
+  "weight": 77,
+  "frame": "Large",
+  "created_at": {
+    "$date": "2025-11-06T09:50:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc735340a7968301205dc"
+  },
+  "user_id": {
+    "$oid": "68fdc091c148bd9eb5e6b346"
+  },
+  "gender": "female",
+  "footSize": 23,
+  "height": 160,
+  "weight": 54,
+  "frame": "Small",
+  "created_at": {
+    "$date": "2025-11-06T09:55:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-06T09:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6914e8bfdafe034b417a8c85"
+  },
+  "user_id": {
+    "$oid": "6914e8bfdafe034b417a8c84"
+  },
+  "gender": null,
+  "footSize": 31,
+  "height": 189,
+  "weight": 44,
+  "frame": "Large",
+  "created_at": {
+    "$date": "2025-11-12T20:06:23.139Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-12T20:06:23.139Z"
+  }
+}]

@@ -1,0 +1,308 @@
+[{
+  "_id": {
+    "$oid": "690505e066cdaae34dfe4c5e"
+  },
+  "name": "Soham Khatri",
+  "email": "soham.khatri@gmail.com",
+  "message": "I loved it",
+  "createdAt": {
+    "$date": "2025-10-31T18:54:24.740Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fb9db1823a78e05cd2048a"
+  },
+  "name": "Aarav Sharma",
+  "email": "aarav@gmail.com",
+  "message": "I loved this concept.",
+  "createdAt": {
+    "$date": "2025-10-24T15:39:29.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fbb91a823a78e05cd2048d"
+  },
+  "name": "Sanya Mehra",
+  "email": "sanya@gmail.com",
+  "message": "Can you add more styles?",
+  "createdAt": {
+    "$date": "2025-10-24T17:36:26.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdb0ff72041a57fa512043"
+  },
+  "name": "Soham Khatri",
+  "email": "soham.khatri@gmail.com",
+  "message": "It was a reasonable experience",
+  "createdAt": {
+    "$date": "2025-10-26T05:26:23.119Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b319"
+  },
+  "name": "Ishaan Verma",
+  "email": "ishaan.verma@gmail.com",
+  "message": "Loved the suggestions!",
+  "createdAt": {
+    "$date": "2025-10-17T12:11:29.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b31a"
+  },
+  "name": "Ananya Gupta",
+  "email": "ananya.gupta@gmail.com",
+  "message": "Very insightful analysis.",
+  "createdAt": {
+    "$date": "2025-10-19T23:16:59.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b31b"
+  },
+  "name": "Rohan Joshi",
+  "email": "rohan.joshi@gmail.com",
+  "message": "Helped me pick clothes better.",
+  "createdAt": {
+    "$date": "2025-10-14T16:23:33.559Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b31c"
+  },
+  "name": "Diya Kapoor",
+  "email": "diya.kapoor@gmail.com",
+  "message": "I want more personalization.",
+  "createdAt": {
+    "$date": "2025-10-15T14:31:41.607Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b31d"
+  },
+  "name": "Vivaan Singh",
+  "email": "vivaan.singh@gmail.com",
+  "message": "Simple and useful tool.",
+  "createdAt": {
+    "$date": "2025-10-13T04:16:06.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b31e"
+  },
+  "name": "Aisha Reddy",
+  "email": "aisha.reddy@gmail.com",
+  "message": "Would recommend to friends!",
+  "createdAt": {
+    "$date": "2025-10-10T03:48:17.770Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b31f"
+  },
+  "name": "Kabir Malhotra",
+  "email": "kabir.malhotra@gmail.com",
+  "message": "Very accurate suggestions.",
+  "createdAt": {
+    "$date": "2025-10-06T21:06:09.716Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b320"
+  },
+  "name": "Meera Nair",
+  "email": "meera.nair@gmail.com",
+  "message": "Love the UI and tips.",
+  "createdAt": {
+    "$date": "2025-10-17T06:25:56.740Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b321"
+  },
+  "name": "Arjun Bhatia",
+  "email": "arjun.bhatia@gmail.com",
+  "message": "Makes shopping easier.",
+  "createdAt": {
+    "$date": "2025-10-12T15:30:21.698Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b322"
+  },
+  "name": "Tanvi Choudhary",
+  "email": "tanvi.choudhary@gmail.com",
+  "message": "Helpful for my style.",
+  "createdAt": {
+    "$date": "2025-10-17T14:21:19.012Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b323"
+  },
+  "name": "Devansh Jain",
+  "email": "devansh.jain@gmail.com",
+  "message": "Nice analysis!",
+  "createdAt": {
+    "$date": "2025-10-13T05:47:30.783Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b324"
+  },
+  "name": "Sakshi Iyer",
+  "email": "sakshi.iyer@gmail.com",
+  "message": "I love the recommendations.",
+  "createdAt": {
+    "$date": "2025-10-01T02:33:04.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b325"
+  },
+  "name": "Reyansh Mehta",
+  "email": "reyansh.mehta@gmail.com",
+  "message": "Good for daily outfits.",
+  "createdAt": {
+    "$date": "2025-10-12T16:17:22.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b326"
+  },
+  "name": "Prisha Sharma",
+  "email": "prisha.sharma@gmail.com",
+  "message": "Very personalized advice.",
+  "createdAt": {
+    "$date": "2025-09-27T03:58:59.186Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b327"
+  },
+  "name": "Aryan Verma",
+  "email": "aryan.verma@gmail.com",
+  "message": "Helps with fashion choices.",
+  "createdAt": {
+    "$date": "2025-10-16T10:40:34.094Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b328"
+  },
+  "name": "Kiara Rao",
+  "email": "kiara.rao@gmail.com",
+  "message": "Love the styling tips.",
+  "createdAt": {
+    "$date": "2025-09-29T12:37:57.862Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b329"
+  },
+  "name": "Yuvraj Singh",
+  "email": "yuvraj.singh@gmail.com",
+  "message": "Makes me confident.",
+  "createdAt": {
+    "$date": "2025-10-24T06:09:53.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b32a"
+  },
+  "name": "Nisha Kapoor",
+  "email": "nisha.kapoor@gmail.com",
+  "message": "Very useful app.",
+  "createdAt": {
+    "$date": "2025-10-09T00:00:28.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b32b"
+  },
+  "name": "Aditya Malhotra",
+  "email": "aditya.malhotra@gmail.com",
+  "message": "I will use this daily!",
+  "createdAt": {
+    "$date": "2025-10-19T03:37:00.338Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b32c"
+  },
+  "name": "Tanya Reddy",
+  "email": "tanya.reddy@gmail.com",
+  "message": "Fashion made simple.",
+  "createdAt": {
+    "$date": "2025-10-11T05:19:10.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b32d"
+  },
+  "name": "Raghav Bhatnagar",
+  "email": "raghav.bhatnagar@gmail.com",
+  "message": "Easy and accurate.",
+  "createdAt": {
+    "$date": "2025-10-03T23:52:38.468Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b32e"
+  },
+  "name": "Anika Sharma",
+  "email": "anika.sharma@gmail.com",
+  "message": "Perfect for outfit planning.",
+  "createdAt": {
+    "$date": "2025-10-09T07:19:57.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fdbff0c148bd9eb5e6b32f"
+  },
+  "name": "Siddharth Jain",
+  "email": "siddharth.jain@gmail.com",
+  "message": "Helps me pick right clothes.",
+  "createdAt": {
+    "$date": "2025-10-03T14:10:03.634Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690cc7c27cea393c9888f13b"
+  },
+  "name": "Soham Sehgal",
+  "email": "soham.sehgal@gmail.com",
+  "message": "I will suggest you to add more for mens as the data is less for them.",
+  "createdAt": {
+    "$date": "2025-11-06T16:07:30.829Z"
+  }
+}]

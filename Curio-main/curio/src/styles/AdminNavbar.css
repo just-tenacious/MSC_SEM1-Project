@@ -1,0 +1,141 @@
+/* Sidebar basics */
+.admin-sidebar {
+  width: 220px;
+  background-color: #1e1e2f;
+  color: #fff;
+  padding: 30px 20px;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+
+.admin-sidebar.collapsed {
+  width: 60px;
+  padding: 30px 10px;
+}
+
+/* Header toggle */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header h2{
+      color: bisque;
+      padding-bottom: 0;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Main links */
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.admin-sidebar li {
+  position: relative;
+  margin: 12px 0;
+}
+
+.admin-sidebar li a,
+.submenu-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.admin-sidebar li a:hover,
+.submenu-title:hover {
+  background-color: #2d2d44;
+}
+
+/* Chevron */
+.chevron {
+  margin-left: auto;
+  transition: transform 0.3s;
+}
+
+.chevron.open {
+  transform: rotate(180deg);
+}
+
+/* Popup submenus */
+.popup-submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #2d2d44;
+  min-width: 180px;
+  display: none;
+  flex-direction: column;
+  padding: 10px 0;
+  border-radius: 6px;
+  z-index: 100;
+}
+
+.has-submenu:hover .popup-submenu,
+.has-submenu.open .popup-submenu {
+  display: flex;
+}
+
+.popup-submenu li a {
+  padding: 6px 12px;
+  color: #ccc;
+}
+
+.popup-submenu li a:hover {
+  color: #fff;
+}
+
+/* Collapsed sidebar behavior */
+.admin-sidebar.collapsed .popup-submenu {
+  left: 60px; /* pop outside collapsed sidebar */
+  display: none; /* only show on hover */
+}
+
+.admin-sidebar.collapsed li:hover .popup-submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Logout */
+.logout-btn {
+  width: 100%;
+  background: #ff6b6b;
+  border: none;
+  padding: 6px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.admin-sidebar.collapsed .logout-btn span {
+  display: none;
+}
+
+.admin-sidebar.collapsed .logout-btn svg {
+  margin: 0 auto;
+}

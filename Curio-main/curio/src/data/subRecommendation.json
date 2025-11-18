@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Casual Summer Dress",
+    "desc": "Light and breezy outfit perfect for summer outings.",
+    "gender": ["women", "all"],
+    "bodyType": ["hourglass", "pear", "slim", "all"],
+    "season": ["summer", "all"],
+    "occasion": ["casual", "brunch", "outdoor", "all"],
+    "faceType": null,
+    "suitableWith": ["casual", "summer", "all"]
+  },
+  {
+    "id": 1,
+    "name": "Formal Blazer",
+    "desc": "Classic blazer suitable for office or formal events.",
+    "gender": ["men", "women", "all"],
+    "bodyType": ["all"],
+    "season": ["autumn", "winter", "all"],
+    "occasion": ["formal", "office", "all"],
+    "faceType": null,
+    "suitableWith": ["formal", "office", "all"]
+  },
+  {
+    "id": 2,
+    "name": "Leather Handbag",
+    "desc": "Premium quality leather handbag to complement your outfit.",
+    "gender": ["women", "all"],
+    "bodyType": null,
+    "season": null,
+    "occasion": ["casual", "formal", "party", "all"],
+    "faceType": null,
+    "suitableWith": ["all"]
+  },
+  {
+    "id": 3,
+    "name": "Running Sneakers",
+    "desc": "Comfortable footwear for running and casual wear.",
+    "gender": ["men", "women", "all"],
+    "bodyType": null,
+    "season": ["all"],
+    "occasion": ["sport", "casual", "travel", "all"],
+    "faceType": null,
+    "suitableWith": ["sporty", "casual", "all"]
+  },
+  {
+    "id": 4,
+    "name": "Bob Haircut",
+    "desc": "Stylish bob haircut suitable for all face shapes.",
+    "gender": ["women", "all"],
+    "bodyType": null,
+    "season": null,
+    "occasion": ["casual", "party", "all"],
+    "faceType": ["oval", "round", "heart", "all"],
+    "suitableWith": ["all"]
+  },
+  {
+    "id": 5,
+    "name": "Spring Floral Dress",
+    "desc": "Floral patterns trending this spring season.",
+    "gender": ["women", "all"],
+    "bodyType": ["hourglass", "pear", "all"],
+    "season": ["spring", "all"],
+    "occasion": ["casual", "festival", "wedding", "all"],
+    "faceType": null,
+    "suitableWith": ["all"]
+  }
+]
